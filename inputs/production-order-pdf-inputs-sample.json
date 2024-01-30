@@ -1,0 +1,100 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 201,
+	"service_label": "FUNC_PRODUCTION_ORDER_PDF",
+	"api_type": "generates",
+	"ProductionOrderHeaderWithItem": [
+		{
+			"ProductionOrder": 1,
+			"ProductionOrderDate": "2024-01-10",
+			"ProductionOrderType": "PP",
+			"Product": "SM570TMC-001",
+			"ProductBaseUnit": "KG",
+			"OwnerProductionPlantBusinessPartner": 301,
+			"OwnerProductionPlantBusinessPartnerName": "TEST鉄鋼製造株式会社",
+			"OwnerProductionPlant": "TEST鉄鋼製造 川崎工場",
+			"MRPArea": "TEST",
+			"MRPController": "001",
+			"ProductionVersion": 1,
+			"BillOfMaterial": 1,
+			"Operations": 1,
+			"ProductionOrderQuantityInBaseUnit": 103600,
+			"ProductionOrderPlannedScrapQtyInBaseUnit": 948,
+			"ProductionOrderPlannedStartDate": "2024-01-10",
+			"ProductionOrderPlannedStartTime": "11:15:00",
+			"ProductionOrderPlannedEndDate": "2024-01-10",
+			"ProductionOrderPlannedEndTime": "16:30:00"
+		}
+	],
+	"ProductionOrderItem": [
+		{
+			"ProductionOrder": 1,
+			"ProductionOrderItem": 1,
+			"ProductionOrderItemDate": "2024-01-10",
+			"Product": "SM570TMC-001",
+			"ProductBaseUnit": "KG",
+			"ProductProductionUnit": "KG",
+			"ProductDeliveryUnit": "員数",
+			"ProductionPlantBusinessPartner": 301,
+			"ProductionPlantBusinessPartnerName": "TEST鉄鋼製造株式会社",
+			"ProductionPlant": "TE01",
+			"ProductionPlantName": "TEST鉄鋼製造 川崎工場",
+			"MRPArea": "TEST",
+			"MRPController": "001",
+			"ProductionVersion": 1,
+			"ProductionVersionItem": 1,
+			"BillOfMaterial": 1,
+			"Operations": 1,
+			"ProductionOrderQuantityInBaseUnit": 103600,
+			"ProductionOrderQuantityInProductionUnit": 103600,
+			"ProductionOrderQuantityInDeliveryUnit": 100,
+			"ProductionOrderPlannedScrapQtyInBaseUnit": 948,
+			"ProductionOrderPlannedStartDate": "2024-01-10",
+			"ProductionOrderPlannedStartTime": "11:15:00",
+			"ProductionOrderPlannedEndDate": "2024-01-10",
+			"ProductionOrderPlannedEndTime": "16:30:00",
+			"ProductionOrderTargetedBatch": "TEST-001"
+		}
+	],
+	"ProductionOrderItemComponent": [
+		{
+			"ProductionOrder": 1,
+			"ProductionOrderItem": 1,
+			"BillOfMaterial": 1,
+			"BillOfMaterialItem": 1,
+			"ComponentProduct": "SM570TMC-001-MAT-001",
+			"ComponentProductBuyer": 1,
+			"ComponentProductBuyerName": "TEST Buyer 株式会社",
+			"ComponentProductSeller": 1,
+			"ComponentProductSellerName": "TEST Seller 株式会社",
+			"ComponentProductBaseUnit": "G",
+			"ComponentProductRequiredQuantityInBaseUnit": 1036,
+			"ComponentProductIsMarkedForBackflush": true,
+			"StockConfirmationBusinessPartner": 301,
+			"StockConfirmationBusinessPartnerName": "TEST鉄鋼製造株式会社",
+			"StockConfirmationPlant": "TE01",
+			"StockConfirmationPlantName": "TEST鉄鋼製造 川崎工場"
+		}
+	],
+	"ProductionOrderItemOperation": [
+		{
+			"ProductionOrder": 1,
+			"ProductionOrderItem": 1,
+			"Operations": 1,
+			"OperationsItem": 1,
+			"OperationID": 1,
+			"OperationType": "TEST",
+			"Sequence": 1,
+			"OperationText": "厚板シャーリング"
+		}
+	],
+	"api_schema": "DPFMFuncProductionOrderPDFGenerates",
+	"accepter": [
+		"ProductionOrder"
+	]
+}

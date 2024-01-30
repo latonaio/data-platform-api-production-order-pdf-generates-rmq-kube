@@ -1,0 +1,325 @@
+{
+  "connection_key": "request",
+  "result": true,
+  "redis_key": "abcdefg",
+  "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+  "api_status_code": 200,
+  "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+  "business_partner": 201,
+  "service_label": "FUNC_MILL_SHEET_PDF",
+  "api_type": "creates",
+  "message": {
+    "Header": [
+      {
+        "OrderID": 1,
+        "OrderItem": 1,
+        "BuyerName": "TEST_Buyer_Name",
+        "SellerName": "TEST_Seller_Name",
+        "Product": "A3750",
+        "SizeOrDimensionText": "10B",
+        "OrderQuantityInBaseUnit": 1450.5,
+        "ProductSpecification": "JIS G 3202-1988 SFVC 2A",
+        "MarkingOfMaterial": "SFVC 2A",
+        "ProductionVersion": null,
+        "ProductionVersionItem": null,
+        "ProductionOrder": null,
+        "ProductionOrderItem": null,
+        "Contract": null,
+        "ContractItem": null,
+        "Project": 0,
+        "WBSElement": 0,
+        "InspectionLot": 1,
+        "InspectionPlantBusinessPartnerName": "Sample Manufacturer",
+        "InspectionLotDate": "2024-01-02",
+        "InspectionSpecification": "TEST_Specification",
+        "HeatNumber": "14E100525",
+        "DrawingNo": "d#8888",
+        "PurchaseOrderNo": "Dummy",
+        "SpecDetails": [
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "SpecType": "YieldStrength",
+            "UpperLimitValue": null,
+            "LowerLimitValue": 245,
+            "StandardValue": null,
+            "SpecTypeUnit": "N/M",
+            "HeatNumber": "295",
+            "SpecTypeTextInJA": "耐力"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "SpecType": "TensileStrength",
+            "UpperLimitValue": 640,
+            "LowerLimitValue": 490,
+            "StandardValue": null,
+            "SpecTypeUnit": "N/M",
+            "HeatNumber": "525",
+            "SpecTypeTextInJA": "引張強さ"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "SpecType": "Elongation",
+            "UpperLimitValue": null,
+            "LowerLimitValue": 18,
+            "StandardValue": null,
+            "SpecTypeUnit": "%",
+            "HeatNumber": "30",
+            "SpecTypeTextInJA": "伸び"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "SpecType": "ReductionOfArea",
+            "UpperLimitValue": 85,
+            "LowerLimitValue": 33,
+            "StandardValue": null,
+            "SpecTypeUnit": "%",
+            "HeatNumber": "65",
+            "SpecTypeTextInJA": "絞り"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "SpecType": "Hardness",
+            "UpperLimitValue": null,
+            "LowerLimitValue": null,
+            "StandardValue": null,
+            "SpecTypeUnit": "HB",
+            "HeatNumber": "145",
+            "SpecTypeTextInJA": "硬さ"
+          }
+        ],
+        "ComponentCompositions": [
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "C",
+            "ComponentCompositionUpperLimitInPercent": 0.35,
+            "ComponentCompositionLowerLimitInPercent": null,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": "0.190"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "Si",
+            "ComponentCompositionUpperLimitInPercent": 0.35,
+            "ComponentCompositionLowerLimitInPercent": null,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": "0.28"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "Mn",
+            "ComponentCompositionUpperLimitInPercent": 1.1,
+            "ComponentCompositionLowerLimitInPercent": 0.4,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": "0.98"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "P",
+            "ComponentCompositionUpperLimitInPercent": 0.03,
+            "ComponentCompositionLowerLimitInPercent": null,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": "0.012"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "S",
+            "ComponentCompositionUpperLimitInPercent": 0.03,
+            "ComponentCompositionLowerLimitInPercent": null,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": "0.001"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "Ni",
+            "ComponentCompositionUpperLimitInPercent": null,
+            "ComponentCompositionLowerLimitInPercent": null,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": ""
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "Cr",
+            "ComponentCompositionUpperLimitInPercent": null,
+            "ComponentCompositionLowerLimitInPercent": null,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": ""
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "Mo",
+            "ComponentCompositionUpperLimitInPercent": null,
+            "ComponentCompositionLowerLimitInPercent": null,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": ""
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "Cu",
+            "ComponentCompositionUpperLimitInPercent": null,
+            "ComponentCompositionLowerLimitInPercent": null,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": ""
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "V",
+            "ComponentCompositionUpperLimitInPercent": null,
+            "ComponentCompositionLowerLimitInPercent": null,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": ""
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "ComponentCompositionType": "Co",
+            "ComponentCompositionUpperLimitInPercent": null,
+            "ComponentCompositionLowerLimitInPercent": null,
+            "ComponentCompositionStandardValueInPercent": null,
+            "HeatNumber": ""
+          }
+        ],
+        "Inspections": [
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "Inspection": 1,
+            "InspectionType": "RawMaterial",
+            "InspectionTypeCertificateValueInText": "130*8250",
+            "InspectionTypeCertificateValueInQuantity": null,
+            "InspectionTypeValueUnit": "",
+            "InspectionTypeTextInJA": "素材寸法"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "Inspection": 2,
+            "InspectionType": "VisualInspection",
+            "InspectionTypeCertificateValueInText": "GOOD",
+            "InspectionTypeCertificateValueInQuantity": null,
+            "InspectionTypeValueUnit": "",
+            "InspectionTypeTextInJA": "外観検査"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "Inspection": 3,
+            "InspectionType": "DimensionInspection",
+            "InspectionTypeCertificateValueInText": "GOOD",
+            "InspectionTypeCertificateValueInQuantity": null,
+            "InspectionTypeValueUnit": "",
+            "InspectionTypeTextInJA": "寸法検査"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "Inspection": 4,
+            "InspectionType": "HeatTreatmentConditionAndTemperature",
+            "InspectionTypeCertificateValueInText": "NORMARIZING",
+            "InspectionTypeCertificateValueInQuantity": 880,
+            "InspectionTypeValueUnit": "℃",
+            "InspectionTypeTextInJA": "熱処理温度"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "Inspection": 5,
+            "InspectionType": "HeatTreatmentNumber",
+            "InspectionTypeCertificateValueInText": "2014-8-26-3",
+            "InspectionTypeCertificateValueInQuantity": null,
+            "InspectionTypeValueUnit": "",
+            "InspectionTypeTextInJA": "熱処理番号"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "Inspection": 6,
+            "InspectionType": "LiquidPenetrantExamination",
+            "InspectionTypeCertificateValueInText": "-",
+            "InspectionTypeCertificateValueInQuantity": null,
+            "InspectionTypeValueUnit": "",
+            "InspectionTypeTextInJA": "浸透探傷試験"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "Inspection": 7,
+            "InspectionType": "UltrasonicExamination",
+            "InspectionTypeCertificateValueInText": "-",
+            "InspectionTypeCertificateValueInQuantity": null,
+            "InspectionTypeValueUnit": "",
+            "InspectionTypeTextInJA": "超音波探傷試験"
+          },
+          {
+            "OrderID": 1,
+            "OrderItem": 1,
+            "InspectionLot": 1,
+            "Inspection": 8,
+            "InspectionType": "SizeOfSpecimen",
+            "InspectionTypeCertificateValueInText": "JIS Z2241 14A号",
+            "InspectionTypeCertificateValueInQuantity": null,
+            "InspectionTypeValueUnit": "",
+            "InspectionTypeTextInJA": "試験片 形状"
+          }
+        ],
+        "Remarks": "remarks-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "ChiefOfInspectionSection": "ラトナ太郎"
+      }
+    ],
+    "GeneralDoc": {
+      "Product": "",
+      "DocType": "",
+      "DocVersionID": 0,
+      "DocID": null,
+      "FileExtension": "",
+      "FileName": "",
+      "FilePath": "",
+      "DocIssuerBusinessPartner": 0
+    }
+  },
+  "api_schema": "DPFMFuncMillSheetPDFGenerates",
+  "accepter": [
+    "MillSheet"
+  ],
+  "deleted": false,
+  "api_processing_result": true,
+  "api_processing_error": "",
+  "mill_sheet_pdf": ""
+}
